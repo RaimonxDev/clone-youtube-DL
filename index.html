@@ -27,12 +27,15 @@
           <button class="top-bar__mic--button">
             <img class="top-bar__button__icon__mic" src="assets/icons/mic.svg" alt="mic">
           </button>
-
-
         </div>
-
+        
         <div class="top-bar__container__right">
-         
+          <img class="navigation__item__icon" src="assets/icons/add-camare.svg" alt="icon-camera">
+          <div class="top__bar__notification" >
+            <img class="navigation__item__icon icon__notification" src="assets/icons/campana.svg" alt="icon-bell">
+            <span>2</span>
+          </div>
+          <img class="navigation__item__icon" src="assets/images/channel/channel_profile.jpg" alt="channel profile">
         </div>
       </div>
     </section>
@@ -199,12 +202,55 @@
 
     <main class="container-videos">
       <nav class="tags">
-        tags
+        <ul class="tags__list">
+          <li class="tags__item active">Todo</li>
+          <li class="tags__item">Mixes</li>
+          <li class="tags__item">Noticias</li>
+          <li class="tags__item">Deportes</li>
+          <li class="tags__item">Debates</li>
+          <li class="tags__item">Directos</li>
+          <li class="tags__item">Destacados</li>
+          <li class="tags__item">Videojuegos</li>
+          <li class="tags__item">En vivo</li>
+          <li class="tags__item">Entrevistas</li>
+          <li class="tags__item">Aprendizaje</li>
+          <li class="tags__item">Videos musicales</li>
+          <li class="tags__item">Perros</li>
+          <li class="tags__item">Gatos</li>
+        </ul>
       </nav>
 
-      <section class="list-videos">
-        list-videos
-        <p class="sp"></p>
+      <section class="videos">
+
+        <div class="video__item">
+          <div class="video__item__container">
+            
+            <div class="video__item__image">
+              <img class="video__item__image" src="assets/images/music-1.jpg" alt="music-1"> 
+              <div class="video__item__image--overlay"></div>
+              <p  class="video__item__text--overlay" > 
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                reproducir</p>
+            </div>
+            
+            <div class="video__item__info">
+              <img class="video__image__channel" src="assets/images/channel/usuario.png" alt="image__channel">
+              <div class="video__item__info__container" >
+                <h3 class="video__item__info__title">Mix: Predestinacion</h3>
+                <p class="video__item__info__channel">Reynaldo Armas, Julio Miranda, Walter silva y más</p>
+                
+                <div class="video__container__stats">
+                  <p class="video__stats__views">100k visualizaciones</p>
+                  <p class="video__stats__date">hace 1 semana</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- overlay -->
+          </div>
+
+   
+        </div>
       </section>
     </main>
   </section>
