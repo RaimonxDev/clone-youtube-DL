@@ -5,16 +5,12 @@
   --yt-spec-white-1: #fff;
   --yt-spec-white-2: #f8f8f8;
   --yt-spec-white-3: #f1f1f1;
-  --yt-spec-white-4: #e9e9e9;
-  --yt-spec-black-1: #282828;
-  --yt-spec-black-2: #1f1f1f;
-  --yt-spec-black-3: #161616;
+  --yt-spec-black-1: #282828; 
   --yt-spec-text-primary: #0f0f0f;
   --yt-spec-black-pure: #000;
   --yt-spec-grey-1: #ccc;
   --yt-spec-grey-2: #aaa;
   --yt-spec-grey-3: #909090;
-  --yt-spec-grey-4: #717171;
   --yt-text-videos: #606060;
   --yt-spec-red: #c00;
 }
@@ -69,7 +65,6 @@ ul {
 .navigation {
   grid-area: menu;
   max-height: calc(100vh - var(--height-top-bar));
-  /* position: relative; */
   position: sticky;
   top: var(--height-top-bar);
 }
@@ -311,10 +306,10 @@ ul {
 }
 
 .notification__count {
-  --size : 0.75rem;
+  --size : 1rem;
   position: absolute;
   top: -0.25rem;
-  right: 0px;
+  right: -2px;
   min-width: var(--size);
   min-height: var(--size);
   border-radius: 50%;
@@ -323,7 +318,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -342,11 +337,8 @@ ul {
 
 .container-videos {
   grid-area: container-videos;
-  /* position: relative;
-  top: var(--height-top-bar); */
   padding-top: var(--height-top-bar);
   margin: 0 0.75rem;
-  /* max-height: calc(100vh - var(--height-top-bar)); */
   overflow-y: auto;
   display: flex;
   flex-direction: column;
@@ -393,7 +385,6 @@ ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-template-rows: repeat(auto-fill, minmax(17rem, max-content));
-  /* grid-auto-rows: 17rem; */
   grid-gap: 1rem;
   padding: 0.5rem;
 }
