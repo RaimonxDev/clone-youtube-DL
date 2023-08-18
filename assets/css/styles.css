@@ -538,7 +538,6 @@ video__item__info__container {
   .shorts {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
   } 
 }
 #shorts  .video__item__header {
